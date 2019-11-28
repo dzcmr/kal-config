@@ -4,6 +4,10 @@
 ###############################################################################
 # Update our machine to the latest code if we need to.
 #
+# add 
+# deb http://http.kali.org/kali kali-rolling main non-free contrib
+# to etc/apt/sources.list
+
 
 if [ "$(id -u)" -ne 0 ]; then
     echo 'This script must be run with root privileges' >&2
